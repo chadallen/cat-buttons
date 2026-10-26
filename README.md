@@ -2,7 +2,7 @@
 
 A talking button board for a cat. The cat touches a raised puck and the board speaks a recorded word. The pads use the ESP32's capacitive touch sensing, so a light paw touch is enough and nothing has to be pressed.
 
-The build is foam board, copper tape and cardboard, with no 3D printing and no soldering required. It was inspired by the r/PetsWithButtons post "Proof of concept: button using a capacitative captor (easier to activate for cats)".
+No soldering is required. It was inspired by the r/PetsWithButtons post "Proof of concept: button using a capacitative captor (easier to activate for cats)".
 
 **Status:** six pads work on the bench, with placeholder words. Testing with an actual cat is next.
 
@@ -10,10 +10,10 @@ The build is foam board, copper tape and cardboard, with no 3D printing and no s
 
 - An original ESP32 dev board (ESP-WROOM-32). Not a C3 or C6: those have no touch sensing.
 - A MAX98357A I2S amplifier and a small 4Ω speaker.
-- Six pucks: copper foil tape on stacked foam-board discs, under a laminated vinyl cover.
-- A 5V USB wall charger.
+- Six touch pads, each a conductive disc about 60 mm across, for example copper foil tape.
+- 5V USB power.
 
-The parts list, wiring and puck build are in [docs/HARDWARE.md](docs/HARDWARE.md).
+The parts list, wiring and what each pad needs are in [docs/HARDWARE.md](docs/HARDWARE.md).
 
 ## Wiring
 
@@ -59,7 +59,7 @@ The plotter graphs one pad live and prints a summary after each touch: how deep 
 
 ## Docs
 
-- [docs/HARDWARE.md](docs/HARDWARE.md): parts, wiring, power and the puck build.
+- [docs/HARDWARE.md](docs/HARDWARE.md): parts, wiring, power and what each pad needs.
 - [docs/FIRMWARE_SPEC.md](docs/FIRMWARE_SPEC.md): behavior, build phases and pass criteria.
 - [docs/BUILD.md](docs/BUILD.md): toolchain and commands.
 - [docs/DECISIONS.md](docs/DECISIONS.md): why it's built this way and what was ruled out.

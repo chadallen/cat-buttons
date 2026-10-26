@@ -44,18 +44,12 @@ ESP32            NULLLAB MAX98357A
   3. Feed the amp 5V directly (MB102 module or a USB breakout), with a shared GND.
 - **No battery for v0.** Capacitive readings drift more when the circuit floats, and power banks auto-shutoff at low draw.
 
-## Physical build: one puck
+## What each pad needs
 
-Top to bottom:
+How you build the pucks is up to you. The touch sensing needs:
 
-1. **Vinyl cover.** A printed sticker plus laminate, under 0.5 mm. Retest thresholds after any cover change.
-2. **Copper foil pad.** A 60 mm disc with a 10 mm tab, keyhole-shaped. The tab folds down the side of the puck, so the lead joint sits on the side, not under the paw.
-3. **Foam-board stack.** Three 70 mm discs of 5 mm foam board, hot-glued, about 15 mm tall. Cut a shallow groove down the side for the lead.
-4. **EVA mat tile.** Punch a 6 mm hole beside the puck for the lead to pass under the mat.
-
-Lead joint: cut a F-F jumper in half and strip 1.5 cm.
-- **Solder:** tin the tab on scrap wood before the foil goes on the foam, since the iron melts foam.
-- **No solder:** fan the strands flat on the tab and press a second piece of conductive copper tape over them.
-
-Layout: a 2×3 grid on one 12" (30 cm) tile, with pucks 80 mm apart center to center. That takes 230 × 150 mm, so it fits one tile. The electronics go in a cardboard box beside the mat, with holes punched over the speaker.
-
+- **A conductive pad about 60 mm across** on top of each puck.
+- **A cover under 0.5 mm thick, if you use one.** Thicker covers shrink the touch signal. Recalibrate and retest after any cover change.
+- **The lead joint off the touch surface,** for example down the side of the puck, so a paw never lands on it.
+- **A clamped or soldered lead joint.** In testing, a wire held only by copper tape's adhesive read too weakly to trigger. Bare wire clamped between two layers of copper tape read as strongly as the bare wire itself. Solder is the other option.
+- **About 80 mm between pad centers,** so one paw doesn't touch two pads. Six pads in a 2×3 grid take about 230 × 150 mm.

@@ -1,0 +1,31 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# Secrets (WiFi credentials for phase 4). Copy include/secrets.h.example to include/secrets.h.
+include/secrets.h
+
+# Working notes
+scratch.md
+
+# macOS
+.DS_Store
+
+# Serial logs from tools/plot_touch.py
+logs/
+
+# Converted clips; regenerate with tools/make_clips.sh
+data/
+
+# Python bytecode from the tools
+__pycache__/
+
+# Voice recordings and spoken placeholders; tools/make_clips.sh --say regenerates placeholders
+clips/
+
+# Local reference photos and screenshots
+reference/
+
+# Local coding-agent instructions
+CLAUDE.md
+AGENTS.md

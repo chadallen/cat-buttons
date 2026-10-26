@@ -8,14 +8,6 @@
 | Amp and speaker | NULLLAB MAX98357A I2S amp and 3W speaker kit (Amazon B0FSZQRWSF), **"MAX98357A" set, not NS4168** | $10 | Speaker plugs into the PH2.0 jack. Module docs: github.com/nulllaborg/i2s_audio_amplifier_module |
 | Copper foil tape | 2", **conductive adhesive** | $10 | Conductive adhesive matters for the no-solder joint |
 | Hookup wire / jumpers | F-F Dupont jumpers, 20 cm, plus 22 AWG stranded | $10 | A cut F-F jumper is the pad lead |
-| EVA foam floor tiles | 12" interlocking | $15–20 | Base mat |
-| Foam board | 3/16" (5 mm), 1–2 sheets | $5 | Puck layers |
-| Compass circle cutter | | $10 | Clean 70 mm discs |
-| Printable vinyl sticker paper and clear laminate | | $15 | Puck covers, under 0.5 mm total |
-| Electrolytic capacitor | 470–1000 µF, 10 V or higher | $1 | Across amp VIN/GND if playback browns out the ESP32 |
-| Cord protector | Braided cable or split loom | $5–10 | Cats chew cables |
-| Soldering iron | Only if not already owned | $25 | Optional for v0 (see the no-solder joint) |
-| Also needed | 5V 2A USB-A wall charger, USB-A to C data cable, cardboard box, hot glue, craft knife | — | Commonly on hand |
 
 **Optional:** an ELEGOO MB102 breadboard power module, or any 5V USB breakout, to power the amp separately if playback browns out the ESP32.
 
